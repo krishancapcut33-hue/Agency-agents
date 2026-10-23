@@ -190,6 +190,7 @@ Building the future, one commit at a time.
 | 🎯 [ATS Validator Architect](engineering/engineering-ats-validator-architect.md) | Resume parseability, ATS ingestion pipelines | BM25/TF-IDF relevance scoring, layout linearization audits, EU AI Act and NYC LL144 compliance |
 | 📑 [Universal Document Compiler](engineering/engineering-universal-document-compiler.md) | Schema-agnostic document ASTs, data-shape layout inference, paged publishing | Compiling arbitrary YAML trees into proposals, technical specs, executive dossiers |
 | 🛠️ [ServiceNow Developer & Mentor](engineering/engineering-servicenow-developer-mentor.md) | Business Rules, Script Includes, GlideAjax, ACLs, Flow Designer | ServiceNow development and step-by-step instance troubleshooting |
+| 🚄 [LLM Inference Engineer](engineering/engineering-llm-inference-engineer.md) | Self-hosted LLM serving, KV-cache sizing, batching, quantization, cost per token | Making open-weight models fast and cheap, and deciding self-host vs API |
 
 ### 🎨 Design Division
 
