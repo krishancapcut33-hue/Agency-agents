@@ -1,15 +1,7 @@
-[mcp_servers.firecrawl]
-command = "C:/Users/kaky8/mcp-tools/node_modules/.bin/firecrawl-mcp"
+model = "gpt-5.4"
+model_reasoning_effort = "medium"
+approval_policy = "on-request"
+sandbox_mode = "workspace-write"
 
-[mcp_servers.perplexity]
-command = "C:/Users/kaky8/mcp-tools/node_modules/.bin/perplexity-mcp"
-
-[mcp_servers.perplexity.env]
-PERPLEXITY_API_KEY = "your-key-here"
-
-[mcp_servers.playwright]
-command = "npx"
-args = [
-    "-y",
-    "@playwright/mcp@latest",
-]
+[sandbox_workspace_write]
+network_access = true

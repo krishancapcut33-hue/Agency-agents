@@ -87,3 +87,4 @@ integrations/vibe/prompts/
 integrations/zcode/agents/
 integrations/dsh/agency-*/
 graphify-out/
+.vibecode-backup*/
