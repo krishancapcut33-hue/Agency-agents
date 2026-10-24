@@ -88,3 +88,22 @@ integrations/zcode/agents/
 integrations/dsh/agency-*/
 graphify-out/
 .vibecode-backup*/
+
+# Local development workflow files (VC-system harness)
+/.claude/
+/.codex/agents/
+/.codex/hooks.json
+/.codex/hooks/
+/process/
+/CLAUDE.md
+/AGENTS.md
+/.vc-version
+/.vc-installed-files
+
+# Working directories and downloads
+/claude-content-skills-main/
+/instagram-factory/
+/sirr-brand/
+/test-animation/
+VIDEO_*.md
+WINDOWS_VIDEO_SETUP.md
