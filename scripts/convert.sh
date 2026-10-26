@@ -336,8 +336,8 @@ convert_pi() {
       fi
     done
     printf 'x-agency-claude-tools: %s\n' "$(yaml_quote "$tools")" >> "$outfile"
-    printf 'tools: %s\n' "${mapped:-none}" >> "$outfile"
-    printf 'extensions: false\n' >> "$outfile"
+    printf "tools: %s\n" "${mapped:-''}" >> "$outfile"
+    printf "extensions: ''\n" >> "$outfile"
     [[ -n "$unmapped" ]] && printf 'x-agency-unmapped-tools: %s\n' "$(yaml_quote "$unmapped")" >> "$outfile"
   fi
 

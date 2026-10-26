@@ -68,7 +68,7 @@ done
 PI_TOOLS_AGENT="$OUTPUT_DIR/pi/agents/product-manager.md"
 grep -Fqx "x-agency-claude-tools: 'WebFetch, WebSearch, Read, Write, Edit'" "$PI_TOOLS_AGENT"
 grep -Fqx 'tools: read, write, edit' "$PI_TOOLS_AGENT"
-grep -Fqx 'extensions: false' "$PI_TOOLS_AGENT"
+grep -Fqx "extensions: ''" "$PI_TOOLS_AGENT"
 grep -Fqx "x-agency-unmapped-tools: 'WebFetch, WebSearch'" "$PI_TOOLS_AGENT"
 if [[ "$(grep -c '^---$' "$OUTPUT_DIR/pi/agents/design-ux-architect.md")" -ne 4 ]]; then
   echo "Pi output dropped persona body separators" >&2
